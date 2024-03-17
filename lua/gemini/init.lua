@@ -39,7 +39,7 @@ function M.handle(name, input)
 			return utils.fill(def.result_tpl or "${output}", args)
 		end,
 		open_window = def.open_window,
-		use_glow = M.use_glow,
+		use_glow = M.opts.use_glow,
 	})
 end
 
