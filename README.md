@@ -18,7 +18,7 @@ Using lazy.nvim:
 
 ```lua
 {
-  'gera2ld/ai.nvim',
+  'notokrs/gemini.nvim',
   dependencies = 'nvim-lua/plenary.nvim',
   opts = {
     api_key = 'YOUR_GEMINI_API_KEY', -- or read from env: `os.getenv('GEMINI_API_KEY')`
